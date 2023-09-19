@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+  
+{% block title %}Project Description{% endblock %}
+{% block lead %}Describe how and why you chose your iGEM project.{% endblock %}
+
+{% block page_content %}
+
+
+<div class="row mt-4">
+  <div class="col-lg-8">
+    <hr>
+    <p>Our team's broad aims are to use sophisticated genetic circuits to address physiological or biochemical medical misregulation.   Currently, most therapies use a small molecule drug approach that comes with side effects, are not always easy to develop for all cellular targets, and are not easily customizable to a patient's specific disease state. With genetic technology, we can provide a more sophisticated approach that produces intervention in response to signals that are measured in the body by the same genetic circuit.</p><br>
+
+<p>Specifically, we are addressing one of the most pervasive but difficult problems to solve - hypercholesterolemia or high cholesterol. Our society is confronting the rising number of individuals with high cholesterol that are not serviced by the drugs currently on the market. The current treatment, small molecule inhibitors called statins, cause adverse effects and must be used repeatedly and indefinitely. Additionally, the small molecule drugs have very limited success in reaching what are called ‘undruggable targets’ that could provide potent options to target in the cholesterol biosynthesis pathway. Our alternative arms the body’s biology with a genetic circuit that would first detect cholesterol levels in the liver and then inhibit its production, using siRNA, based upon the measured levels. We have designed, synthesized, and tested a novel promoter to be sensitive to cellular cholesterol levels. This is then coupled to a genetic pathway inhibition mechanism (siRNA or CRISPRi based) to down-regulate the cholesterol biosynthesis pathway. We are currently using one siRNA to target a specific enzyme in cholesterol biosynthesis but are looking to integrate two or more siRNAs to increase the inhibition.</p><br>
+
+<p>Over the last two years, we have developed different versions of genetic circuits or vectors. This year, we are utilizing a dual luciferase reporter assay to validate and characterize the cholesterol response of our V2 vector that contains the novel pSRE promoter. We have also screened several chemically synthesized siRNA and identified candidates that provide robust inhibition of at least one biosynthetic enzyme, SQLE. We are now moving to validate this inhibition when this siRNA is provided genetically, using a V2.5 inhibition vector containing the siRNA. This will lead to our anticipated final version, the V3 vector, which will combine the pSRE promoter with the siRNA inhibitor; we will validate the vector in human liver cells.</p><br>
+
+<p>With these new advances, we hope to make strides towards publication and in vivo studies that would eventually lead to a pre-clinical studies in organoid or whole animal models. A diagram illustrating all vectors discussed can be found in the application attachments.</p>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-lg-4">
+    <h2>References</h2>
+    <hr>
+  </div>
+</div>
+
+{% endblock %}
